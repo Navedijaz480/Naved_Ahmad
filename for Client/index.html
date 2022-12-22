@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="../ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <h1>Tron Dapp</h1>
+    <span id="network"></span> </br>
+    <span id="metamaskConnection"></span> </br>
+    <span id="lock"></span> </br>
+    TRON Balance : <span id="getBalance"></span> </br>
+    Last User ID : <span id="myTokens"></span> </br>
+    IS USER EXIST: <span id="checkUserExist"></span> </br>
+            
+          
+    
+
+    <!-- GetPayment_in_Matic -->
+<div>
+    <h1>GetPayment_in_Matic</h1>
+    <input type="number" id="GetPayment_in_MaticAmount" placeholder=" Amount..."><br>
+    <button onclick="GetPayment_in_Matic()">Get Payment</button>
+    <h3 id="GetPayment_in_Matichash"></h3>
+</div>
+
+    <!-- GetPayment_in_Token -->
+<div>
+    <h1>GetPayment_in_Token</h1>
+    <input type="number" id="getpayment_in_tokenAmount" placeholder=" Amount..."><br>
+    <button onclick="GetPayment_in_Token()">GetPayment</button>
+    <h3 id="approve_getpayment_in_tokenhash"></h3>
+    <h3 id="getpayment_in_tokenhash"></h3>
+</div>
+
+
+
+<!-- 
+    <div>
+        <h2>multisendToken</h2>
+        <input type="text" id="amountMultiSend" placeholder=" Amount...."><br>
+        <button type="submit" id="vendor"onclick="multisendToken()">multisendToken </button>
+        <br><span id="approveHash"></span><br>
+        <span id="transferHash"></span>
+    
+    </div>
+
+
+    <div>
+        <h2>airDropToken</h2>
+        <input type="text" id="amountAirDrop" placeholder=" Amount...."><br>
+        <button type="submit" id="vendor" onclick="airDropToken()">airDropToken </button>
+        <br><span id="AirDropApproveHash"></span><br>
+        <span id="airDropTransferHash"></span>        
+    
+    </div>
+     -->
+
+    <script src="./js.js"></script>
+
+</body>
+
+</html>
